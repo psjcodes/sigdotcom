@@ -28,7 +28,7 @@ export default function Footer() {
         </ActionIcon>
         <ActionIcon
           component="a"
-          href="mailto:"
+          href="mailto:ucsdsustainableinvestment@gmail.com"
           variant="subtle"
         > 
           <IconMail size={24}/>

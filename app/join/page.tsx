@@ -11,6 +11,7 @@ import RecruitingTimeline from './components/Timeline';
 import Faqs from './components/Faqs';
 import Hero from './components/Hero';
 import Footer from '../components/Footer';
+import RecruitingCalendar from './components/Calendar';
   
 export default function JoinPage() {
 
@@ -19,6 +20,8 @@ export default function JoinPage() {
       <Center>
         <Stack w="100%">
           <Hero />
+          <Space h={50} />
+          <RecruitingCalendar />
           <Space h={50} />
           <RecruitingTimeline />
           <Space h={50} />

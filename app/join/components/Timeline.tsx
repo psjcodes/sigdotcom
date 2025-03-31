@@ -16,18 +16,18 @@ export default function RecruitingTimeline() {
       <Title mb={20} order={1} c="green">Recruiting Timeline</Title>
       <Timeline active={1} bulletSize={24} lineWidth={2}>
         <TimelineItem bullet={<IconFileCv size={12} />} title="Applications open!">
-          <Text w={400} c="dimmed" size="sm">Submit your applications <Anchor href="https:google.com" target="_blank">here</Anchor>.</Text>
+          <Text w={400} c="dimmed" size="sm">Submit your applications <Anchor href="https:google.com" target="_blank">HERE</Anchor>.</Text>
           <Text size="sm" mt={4}>Ends 04/xx.</Text>
         </TimelineItem>
 
         <TimelineItem bullet={<IconCoffee size={12} />} title="Coffee chats!">
-          <Text w={400} c="dimmed" size="sm">Sign up for an optional coffee chats with our directors <Anchor href="https:google.com" target="_blank">here</Anchor>.</Text>
+          <Text w={400} c="dimmed" size="sm">Sign up for an optional coffee chats with our directors <Anchor href="https:google.com" target="_blank">HERE</Anchor>.</Text>
           <Text size="sm" mt={4}>Ends 04/xx.</Text>
         </TimelineItem>
 
         <TimelineItem bullet={<IconZoom size={12} />} title="Applications closed!">
           <Text w={400} c="dimmed" size="sm">SIG is reviewing applications.</Text>
-          <Text size="sm" mt={4}>Ends 04/xx</Text>
+          <Text size="sm" mt={4}>Ends 04/xx.</Text>
         </TimelineItem>
 
         <TimelineItem bullet={<IconUserQuestion size={12} />} title="Interviews!">

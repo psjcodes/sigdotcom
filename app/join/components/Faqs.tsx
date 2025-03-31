@@ -1,32 +1,6 @@
 import {Group, Stack, Title, Text, Accordion, AccordionItem, AccordionControl, AccordionPanel} from "@mantine/core";
 
-export const faqs = [
-  {
-    q: "wjikfiekf?",
-    a: "feifef",
-  },
-  {
-    q: "wjikfief?",
-    a: "jifef",
-  },
-  {
-    q: "wjifiekf?",
-    a: "fejife",
-  },
-  {
-    q: "wikfiekf?",
-    a: "feifef",
-  },
-]
-
 export default function Faqs() {
-
-  const items = faqs.map((item) => (
-    <AccordionItem key={item.q} value={item.q}>
-      <AccordionControl>{item.q}</AccordionControl>
-      <AccordionPanel>{item.a}</AccordionPanel>
-    </AccordionItem>
-  ));
 
   return (
     <>
