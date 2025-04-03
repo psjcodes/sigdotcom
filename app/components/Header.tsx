@@ -13,11 +13,11 @@ export default function Header() {
             </Anchor>
           </Group>
 
-          <Group gap="lg" p="md">
+          {/* <Group gap="lg" p="md">
             <Anchor fz="sm" href="/join" underline="never" c="white">JOIN</Anchor>
-            {/* <Anchor fz="sm" href="/events" underline="never">EVENTS</Anchor> */}
-            { /* <Anchor fz="sm" href="/blog" underline="never">BLOG</Anchor> */}
-          </Group>
+            <Anchor fz="sm" href="/events" underline="never">EVENTS</Anchor>
+            {/* <Anchor fz="sm" href="/blog" underline="never">BLOG</Anchor>
+          </Group> */}
         </Group>
       
     </Box>
