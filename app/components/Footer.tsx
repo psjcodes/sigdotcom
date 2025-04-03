@@ -15,7 +15,7 @@ export default function Footer() {
         borderImage: 'linear-gradient(to right, #2b8a3e, #8ce99a) 1',
       }}
       p="xs"
-      pb={0}
+      pb="0.75em"
       gap="xs"
     >
       <Group>
